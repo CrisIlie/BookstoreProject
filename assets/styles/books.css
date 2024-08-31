@@ -1,9 +1,13 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
   
   header {
     background-color: #585c86;
@@ -76,7 +80,6 @@ body {
   }
   
   footer{
-    margin-top:auto;
     padding-top: 1.5em;
     background-color:#495057;
     color:#fff;
