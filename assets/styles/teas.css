@@ -13,6 +13,7 @@
 
   body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     background-color: #f9f9f9;
     color: #333;
     display: flex;
@@ -77,6 +78,7 @@
   
   img {
     height: auto;
+    max-width: 100%;
   }
   
   .wrapper-lg {
@@ -252,3 +254,28 @@
     font-size:12px;
     letter-spacing: 1px;
   } 
+
+  @media (max-width: 768px) {
+    .main-content .row {
+      display: flex; /* Change to flexbox for stacking */
+      flex-direction: column; /* Stack cards vertically */
+    }
+  
+    .card_container {
+      /* Increase card width for better viewing on small screens */
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Adjust font sizes as needed */
+    body {
+      font-size: 14px;
+    }
+  
+    h2, h3, h4, p {
+      font-size: 1rem;
+    }
+  
+    /* Other font adjustments as needed */
+  }
