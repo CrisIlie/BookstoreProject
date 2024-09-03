@@ -14,7 +14,7 @@
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    background-color: #f9f9f9;
+    background-color: #f3f5f9;
     color: #333;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
   }
   
   header {
-    background-color: #585c86;
+    background-color:#3c7782;
     padding: 20px 0;
   }
   
@@ -69,7 +69,7 @@
     object-fit: cover;
     background-color:#f4f4f1;
     transition: transform 0.3s ease;
-    padding: 10px;
+    padding:30px;
     margin: 10px;
   }
   .column img:hover {
@@ -153,11 +153,12 @@
   }
   
   .available {
-    background-color: #99FFDD;
+    background-color:#489ee8;
+    color:#fff;
   }
   
   .available:hover {
-    background-color: #00F5A3;
+    background-color: #3c7782;
   }
   
   .cancel {
@@ -181,26 +182,50 @@
     }
   
     h2 {
-      font-size: 2.4rem;
+      font-size: 2.2rem;
       text-align: center;
+      color:#6c757d;
     }
   
+    .main-content p {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.2rem;
+      color:#6c757d;
+    }
+
     h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+      color:#35ccbe;
     }
   
     h4 {
       font-size: 1.3rem;
+      text-align: center;
+      color:#489ee8;
     }
-  
+    #blends{
+      font-size: 1.1rem;
+      color:#6c757d;
+    }
+    #description{
+      text-align: center;
+    }
+    #preparation{
+      text-align: center;
+    }
+
     p,
     ul {
       font-size: 1rem;
       line-height: 1.5;
+      color:#6c757d;
     }
   
     p.p-md {
       font-size: 1.2rem;
+      color: #35ccbe;
     }
   
     button {
@@ -218,8 +243,7 @@
 
   footer{
     padding-top: 1.5em;
-    background-color:#495057;
-    color:#fff;
+    background-color:#254950;
     text-align:center;
   }
   
@@ -230,6 +254,7 @@
   
   footer h3{
     font-weight:bold;
+    color:#fff;
     font-size: 20px;
     margin-bottom: 10px;
     letter-spacing: 1px;
@@ -247,6 +272,7 @@
   
   footer p {
     font-size:15px;
+    color:#fff;
     margin-bottom:10px;
   }
   

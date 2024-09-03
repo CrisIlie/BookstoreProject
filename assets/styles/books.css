@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f3f5f9;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
   
   header {
-    background-color: #585c86;
+    background-color: #3c7782;
     padding: 20px 0;
   }
   
@@ -42,8 +42,8 @@ body {
   .main-content p {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 1.1rem;
-    color: #555;
+    font-size: 1.2rem;
+    color: #6c757d;
   }
   
   .row{
@@ -69,19 +69,19 @@ body {
   
   .column h3 {
     margin-top: 15px;
-    font-size: 1.5rem;
-    color: #495057;
+    font-size: 1.2rem;
+    color:#489ee8;
   }
   
   .column p {
-    color: #666;
+    color:#6c757d;
+    font-size: 1.0rem;
     margin:0;
-
   }
   
   footer{
     padding-top: 1.5em;
-    background-color:#495057;
+    background-color:#254950;
     color:#fff;
     text-align:center;
   }

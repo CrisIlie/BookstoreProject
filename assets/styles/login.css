@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color:#f3f5f9;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #585c86;
+  background-color:#3c7782;
   padding: 20px 0;
 }
 
@@ -41,7 +41,7 @@ header img {
   justify-content: space-between;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #489ee8;
   border-radius: 5px;
   width: 600px;
 }
@@ -61,7 +61,7 @@ input {
 }
 
 button {
-  background-color: #36d6d9;
+  background-color:#489ee8;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -76,7 +76,7 @@ button:hover {
 
 footer{
   padding-top: 1.5em;
-  background-color:#495057;
+  background-color:#254950;
   color:#fff;
   text-align:center;
 }
