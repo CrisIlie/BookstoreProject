@@ -63,7 +63,7 @@
     max-width: 60ch;
   }
   
-  ul img {
+  ul picture {
     aspect-ratio: 2/3;
     overflow: hidden;
     object-fit: cover;
